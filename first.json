@@ -1,0 +1,15 @@
+{
+  "id":"two-sum-01",
+  "title":"Two Sum",
+  "statement":"Given an array ...",
+  "constraints":"n up to 10^5, values within 32-bit",
+  "examples":[{"in":"[2,7,11,15], target=9","out":"[0,1]"}],
+  "solution_steps":[
+    "1) Recognize hashing approach for O(n).",
+    "2) Iterate with complement lookup",
+    "3) Return indices"
+  ],
+  "pseudo_code":"for i in range(n): if complement in map: return [map[complement], i] ...",
+  "final_code":"def two_sum(nums, target): ...",
+  "hints":[ "Think in one pass", "Use dict to store indices" ]
+}
